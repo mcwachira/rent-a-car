@@ -27,8 +27,8 @@ function TopSection() {
 
                 <div className="flex flex-wrap mt-4">
 
-                    <Button  className="">Book Your Ride</Button>
-                    <Button className="">Sell Your Car</Button>
+                    <Button text="Book Your Ride"/>
+                    <Button theme="filled" text="Sell Your Car" />
                 </div>
             </div>
             <div className="w-1/2 flex flex-col relative mt-20">
