@@ -1,15 +1,13 @@
 import "./App.css"
-import { Counter } from "./features/counter/Counter"
-import { Quotes } from "./features/quotes/Quotes"
-import logo from "./logo.svg"
+
+import HomePage from "./app/containers/HomePage/HomePage";
 
 const App = () => {
   return (
-    <div className="App">
-    <h1 className="text-5xl">
-      Hello world
-    </h1>
-    </div>
+<div className="flex flex-col w-full h-full">
+
+  <HomePage/>
+</div>
   )
 }
 
